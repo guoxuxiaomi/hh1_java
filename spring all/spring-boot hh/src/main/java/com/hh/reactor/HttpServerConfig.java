@@ -10,10 +10,7 @@ import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.RouterFunctions;
 import reactor.ipc.netty.http.server.HttpServer;
 
-
-
-
-//@Configuration
+@Configuration
 public class HttpServerConfig {
     @Autowired
     private Environment environment;
