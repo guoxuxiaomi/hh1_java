@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HhStarter {
 
-//你号
 
 
     public static void main(String[] args) throws Exception {
