@@ -28,7 +28,7 @@ public class ReactorHh {
             }
             return "";
         });
-        Flux<String> fewWords = Flux.just("Hello", "World");
+        Flux<String> fewWords = Flux.just("reactor", "create");
 
         manyWords.subscribe(System.out::println);
         fewWords.subscribe(i ->
