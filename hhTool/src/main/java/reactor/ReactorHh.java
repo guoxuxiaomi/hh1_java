@@ -19,6 +19,7 @@ public class ReactorHh {
             "dog"
     );
 
+
     public void simpleCreation() {
         Flux<String> manyWords = Flux.fromIterable(words).map((i) -> {
             try {
