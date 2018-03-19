@@ -21,7 +21,6 @@ public class Route {
 //    }
 
 
-
     @Bean
     public RouterFunction<?> routerFunction() {
         return route(
