@@ -24,7 +24,7 @@ public class Route {
     @Bean
     public RouterFunction<?> routerFunction() {
         return route(
-                GET("/hhHello/hii").and(accept(MediaType.APPLICATION_JSON)), hhHandle::helloWorld).
+                GET("/hhHello/hii").and(accept(MediaType.APPLICATION_JSON)), hhHandle::hhString).
                 andRoute(GET("/hhHello/hiii/{cd}").and(accept(MediaType.APPLICATION_JSON)), hhHandle::hhString);
     }
 }
