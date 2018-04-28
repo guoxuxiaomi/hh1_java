@@ -36,6 +36,7 @@
         </dependency>
     </dependencies>
 
+
     <!-- 将包打包成jar -->
     <build>
         <plugins>
@@ -44,6 +45,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+
     </build>
 
      <!--Add Spring repositories-->
